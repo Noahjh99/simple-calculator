@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
 
 import './App.css';
 
@@ -24,7 +23,7 @@ function App() {
   return (
     <div className="wrapper">
       {" "}
-      <div className="show-input">{input}</div>
+      <div className="show-input" >{input}</div>
       <div className="digits flex">{calcBtns}</div>
       <div className="modifiers subgrid">
         {/* clear button */}
